@@ -1,0 +1,6 @@
+2.
+In category and products there is one-to-many
+In products and nutritions there is one-to-many
+In orders and orders_products there is one-to-many
+In products and orders_products there is many-to-many
+In orders and nutritions there isn't a connection between them

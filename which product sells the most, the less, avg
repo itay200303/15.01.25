@@ -1,0 +1,12 @@
+SELECT product_id, SUM(amount) AS total_amount
+FROM products_orders
+GROUP BY product_id
+ORDER BY total_amount DESC
+
+SELECT product_id, SUM(amount) AS total_amount
+FROM products_orders
+GROUP BY product_id
+ORDER BY total_amount ASC
+
+SELECT AVG(amount) AS average_amount
+FROM products_orders;

@@ -1,0 +1,12 @@
+SELECT order_id, total_price
+FROM orders
+ORDER BY total_price DESC
+
+SELECT order_id, total_price
+FROM orders
+ORDER BY total_price ASC
+
+SELECT AVG(total_price) AS average_price
+FROM orders;
+
+
